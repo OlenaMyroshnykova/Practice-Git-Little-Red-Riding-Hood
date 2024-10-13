@@ -40,3 +40,17 @@ img {
     margin: 20px 0;
     border-radius: 8px;
 }
+ 
+.strikethrough {
+    text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
